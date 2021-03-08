@@ -1,0 +1,12 @@
+.post-details{
+     width: 500px;
+     padding: 50px;
+     border: 1px solid red;
+     margin: 30px auto;
+}
+.post-comments{
+     width: 500px;
+     padding: 50px;
+     border: 1px solid red;
+     margin: 30px auto;
+}
