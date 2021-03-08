@@ -14,7 +14,7 @@ const Home = () => {
                <h1>I am home page</h1>
                <h2>I have {posts.length} posts</h2>
                {
-                    posts.slice(0,10).map(post => <Post post={post}></Post>)
+                    posts.slice(0,10).map(post => <Post post={post} key={post.id}></Post>)
                }
           </div>
      );
